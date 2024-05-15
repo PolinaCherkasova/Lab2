@@ -1,8 +1,8 @@
 #ifndef ABSTRACTFACTORY_H
 #define ABSTRACTFACTORY_H
-#include "classunit.cpp"
-#include "methodunit.cpp"
-#include "printoperatorunit.cpp"
+#include "classunit.h"
+#include "methodunit.h"
+#include "printoperatorunit.h"
 using namespace std;
 
 class AbstractFactory //Класс Абстрактная фабрика для создания конкретных фабрик, содержит 3 чисто виртуальных метода, которые будут переопределены в наследниках
