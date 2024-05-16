@@ -9,6 +9,7 @@ class ClassUnit : public Unit // Класс ClassUnit, наследуемый о
 {
     friend class CPlusPlusClass; //класс CPlusPlusClass объявляем другом класса ClassUnit для того, чтобы мы могли обращаться к приватным член-данным
     friend class CSharpClass; //класс CSharpClass объявляем другом класса ClassUnit для того, чтобы мы могли обращаться к приватным член-данным
+    friend class JavaClass; //класс JavaClass объявляем другом класса ClassUnit для того, чтобы мы могли обращаться к приватным член-данным
 public:
     enum AccessModifier { // Определение перечисления(enum) AccessModifier для модификаторов (уровней) доступа: PUBLIC, PROTECTED, PRIVATE
         PUBLIC, //значение = 0, а последующие значения увеличиваются на 1.
